@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e27794858409206f",
+        "id": "0dbb5da0a96cd834",
         "type": "tabs",
         "children": [
           {
-            "id": "6cb85473cd78a2c9",
+            "id": "267e1461ac37102d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para TCC"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TCC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para TCC"
+              "title": "Links de saída"
             }
           },
           {
@@ -164,8 +162,29 @@
               "icon": "lucide-list",
               "title": "Sumário de TCC"
             }
+          },
+          {
+            "id": "a405108b270d6b20",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "code-glyph",
+              "title": "Shell commands: Custom variables"
+            }
+          },
+          {
+            "id": "621a5ef2e60c7022",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "code-glyph",
+              "title": "Shell commands: Custom variables"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -174,21 +193,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-shellcommands:Shell commands: Custom variables": true,
       "switcher:Abrir a troca rápida": false,
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
+      "templates:Inserir modelo": true,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false,
-      "cmdr:Exportar para PDF": false,
-      "graph:Abrir visualização em gráfico": false
+      "bases:Criar nova base": true,
+      "cmdr:Exportar para PDF": true
     }
   },
-  "active": "6cb85473cd78a2c9",
+  "active": "267e1461ac37102d",
   "lastOpenFiles": [
-    "TCC.md",
+    "Canvas",
+    "Anotações diárias",
+    "Anotações/2026-01-30.md",
     "CLAUDE.md",
+    "TCC.md",
+    "Anotações/Sem título.base",
+    "Pasted image 20260130232147.png",
+    "anexos",
     "TCC.pdf",
+    "TCC 1.pdf",
+    "Sem título.canvas",
     "REFERENCIAS.md",
     "watch.sh",
     "template-abnt.tex",
@@ -196,7 +223,6 @@
     "abnt.csl",
     "README.md",
     "referencias.bib",
-    "Anotações",
     "Bem-vindo.md"
   ]
 }

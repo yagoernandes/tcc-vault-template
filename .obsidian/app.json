@@ -6,5 +6,8 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "promptDelete": false
+  "promptDelete": false,
+  "attachmentFolderPath": "anexos",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Anotações"
 }
