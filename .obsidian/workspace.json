@@ -22,6 +22,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "61352a28557d232b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a01f4142d4904ab",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "TCC.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "TCC"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,22 +216,22 @@
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": true,
-      "command-palette:Abrir paleta de comandos": false,
+      "command-palette:Abrir paleta de comandos": true,
       "bases:Criar nova base": true,
-      "cmdr:Exportar para PDF": true
+      "cmdr:Gerar PDF": false
     }
   },
   "active": "267e1461ac37102d",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "TCC.md",
+    "TCC.pdf",
     "Canvas",
     "Anotações diárias",
     "Anotações/2026-01-30.md",
-    "CLAUDE.md",
-    "TCC.md",
     "Anotações/Sem título.base",
     "Pasted image 20260130232147.png",
     "anexos",
-    "TCC.pdf",
     "TCC 1.pdf",
     "Sem título.canvas",
     "REFERENCIAS.md",
@@ -222,7 +240,6 @@
     "build.sh",
     "abnt.csl",
     "README.md",
-    "referencias.bib",
     "Bem-vindo.md"
   ]
 }

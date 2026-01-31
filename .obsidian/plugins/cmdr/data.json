@@ -6,9 +6,9 @@
   "fileMenu": [],
   "leftRibbon": [
     {
-      "id": "workspace:export-pdf",
-      "icon": "lucide-play",
-      "name": "Exportar para PDF",
+      "id": "obsidian-shellcommands:shell-command-1lzjzxl15c",
+      "icon": "lucide-play-square",
+      "name": "Gerar PDF",
       "mode": "any"
     }
   ],

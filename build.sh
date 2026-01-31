@@ -5,6 +5,9 @@
 
 set -e
 
+# Adiciona paths do Homebrew e TeX ao PATH (necessário para Obsidian)
+export PATH="/opt/homebrew/bin:/Library/TeX/texbin:$PATH"
+
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 INPUT_FILE="${1:-$SCRIPT_DIR/TCC.md}"
 OUTPUT_FILE="${INPUT_FILE%.md}.pdf"
