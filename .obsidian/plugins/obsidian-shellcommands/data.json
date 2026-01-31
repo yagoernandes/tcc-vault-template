@@ -62,7 +62,7 @@
     {
       "id": "pvgn67hzga",
       "platform_specific_commands": {
-        "default": "{{vault_path}}/build.sh && open \"obsidian://open?vault={{vault_name}}&file=TCC.pdf\""
+        "default": "./build.sh && open \"obsidian://open?vault=TCC&file=TCC.pdf\""
       },
       "shells": {},
       "alias": "",

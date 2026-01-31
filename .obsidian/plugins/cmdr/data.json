@@ -6,8 +6,8 @@
   "fileMenu": [],
   "leftRibbon": [
     {
-      "id": "obsidian-shellcommands:shell-command-1lzjzxl15c",
-      "icon": "lucide-play-square",
+      "id": "obsidian-shellcommands:shell-command-pvgn67hzga",
+      "icon": "lucide-file-check-corner",
       "name": "Gerar PDF",
       "mode": "any"
     }

@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCC.md",
+                "file": "TCC.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -193,6 +193,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "vscode-editor:Create Code File": false,
       "obsidian-shellcommands:Shell commands: Custom variables": true,
       "switcher:Abrir a troca rápida": false,
       "canvas:Criar novo canvas": false,
@@ -203,8 +204,9 @@
       "cmdr:Gerar PDF": false
     }
   },
-  "active": "267e1461ac37102d",
+  "active": "fbe3ed6d31e47bc5",
   "lastOpenFiles": [
+    "referencias.bib",
     "TCC.pdf",
     "TCC.md",
     "CLAUDE.md",

@@ -1,5 +1,6 @@
 [
   "obsidian-citation-plugin",
   "cmdr",
-  "obsidian-shellcommands"
+  "obsidian-shellcommands",
+  "vscode-editor"
 ]
