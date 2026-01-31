@@ -1,4 +1,7 @@
 {
   "theme": "moonstone",
-  "textFontFamily": "Arial,Times New Roman"
+  "textFontFamily": "Times New Roman",
+  "baseFontSize": 16,
+  "monospaceFontFamily": "JetBrains Mono, Fira Code, monospace",
+  "baseFontSizeAction": true
 }

@@ -1,0 +1,105 @@
+% Template LaTeX para TCC nas normas ABNT
+% Compatível com Pandoc e XeLaTeX
+
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(papersize)$$papersize$paper,$endif$]{article}
+
+% Pacotes essenciais
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setdefaultlanguage{brazil}
+
+% Fonte principal (Times New Roman para ABNT)
+$if(mainfont)$
+\setmainfont{$mainfont$}
+$endif$
+
+% Geometria da página (margens ABNT)
+\usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
+
+% Espaçamento entre linhas
+$if(linestretch)$
+\usepackage{setspace}
+\setstretch{$linestretch$}
+$endif$
+
+% Recuo de parágrafo
+$if(parindent)$
+\setlength{\parindent}{$parindent$}
+$endif$
+\setlength{\parskip}{0pt}
+
+% Pacotes adicionais
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=blue,
+  pdfauthor={$author$},
+  pdftitle={$title$}
+}
+
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{booktabs}
+
+% Suporte a código fonte
+\usepackage{fancyvrb}
+
+% Referências bibliográficas (Pandoc citeproc)
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{0em}
+\newlength{\cslentryspacing}
+\setlength{\cslentryspacing}{1em}
+\newcommand{\citeproctext}{}
+\newenvironment{CSLReferences}[2]
+ {\begin{list}{}
+  {\setlength{\itemindent}{-\cslhangindent}
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemsep}{\cslentryspacing}
+   \setlength{\parsep}{0pt}
+   \setlength{\labelsep}{0pt}
+   \setlength{\labelwidth}{0pt}}}
+ {\end{list}}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{}
+\newcommand{\CSLRightInline}[1]{#1}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\renewcommand{\bibitem}[2][]{\item}
+
+% Suporte a listas do Pandoc
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Metadados do documento
+\title{$title$}
+\author{$author$}
+\date{$date$}
+
+\begin{document}
+
+% Capa
+$if(title)$
+\begin{titlepage}
+\centering
+\vspace*{3cm}
+{\Large\bfseries $title$ \par}
+\vspace{2cm}
+{\large $author$ \par}
+\vfill
+{\large $date$ \par}
+\end{titlepage}
+$endif$
+
+% Sumário
+$if(toc)$
+\tableofcontents
+\newpage
+$endif$
+
+% Conteúdo principal
+$body$
+
+\end{document}
