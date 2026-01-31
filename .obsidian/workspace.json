@@ -22,24 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "61352a28557d232b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7a01f4142d4904ab",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "TCC.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "TCC"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -223,9 +205,9 @@
   },
   "active": "267e1461ac37102d",
   "lastOpenFiles": [
-    "CLAUDE.md",
-    "TCC.md",
     "TCC.pdf",
+    "TCC.md",
+    "CLAUDE.md",
     "Canvas",
     "Anotações diárias",
     "Anotações/2026-01-30.md",
